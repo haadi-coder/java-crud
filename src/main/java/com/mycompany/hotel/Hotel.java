@@ -1,4 +1,4 @@
-package com.mycompany.hotel.db;
+package com.mycompany.hotel;
 import com.mycompany.hotel.db.config.DatabaseConfig;
 import com.mycompany.hotel.db.repository.HotelRepository;
 import com.mycompany.hotel.db.repository.HotelRepositoryImpl;
@@ -10,7 +10,7 @@ import com.mycompany.hotel.service.HotelServiceImpl;
  *
  * @author u611
  */
-public class HotelDb {
+public class Hotel {
 
     public static void main(String[] args) {
         String jdbcUrl = "jdbc:postgresql://localhost:5432/hotel";
